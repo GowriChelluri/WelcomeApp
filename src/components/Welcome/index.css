@@ -1,0 +1,38 @@
+.bg-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f0bb03;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+.description {
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+.btn {
+  height: 30px;
+  width: 90px;
+  padding: 5px;
+  border-radius: 8px;
+  color: black;
+  background-color: white;
+  border-width: 0px;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+  .description {
+    font-size: 40px;
+  }
+}
